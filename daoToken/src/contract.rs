@@ -75,5 +75,9 @@ fn check_nonnegative_amount(amount: i128) {
 }
 
 
+pub struct Token;
 
-
+#[contractimpl]
+impl TokenTrait for Token{
+            
+}
